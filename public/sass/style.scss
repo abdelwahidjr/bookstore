@@ -1,0 +1,17 @@
+@import 'mobile';
+
+@media screen and (min-width: 576px) {
+  @import "mobile_landscape";
+}
+
+@media screen and (min-width: 768px) {
+  @import "tablet";
+}
+
+@media screen and (min-width: 992px) {
+  @import "desktop_small";
+}
+
+@media screen and (min-width: 1200px) {
+  @import "desktop_big";
+}
